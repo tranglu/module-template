@@ -1,0 +1,28 @@
+{
+  "name": "vendor-name/main-project-name-plugin-name",
+  "description": "module temple",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Trang Lu",
+      "email": "lu.t.t.trang@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "VendorName\\MainProjectName\\PluginName\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "VendorName\\MainProjectName\\PluginName\\Providers\\ModuleServiceProvider"
+      ]
+    }
+  }
+}
